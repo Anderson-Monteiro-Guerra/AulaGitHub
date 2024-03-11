@@ -1,0 +1,15 @@
+var pasta = "pasta";
+var escova = "escova";
+var minutos = 5;
+
+var escovarOsDentes =
+"pegar a " +
+pasta +
+" e a " +
+escova +
+" e escovar os dentes por " +
+minutos +
+" minutos.";
+
+console.log(escovarOsDentes);
+

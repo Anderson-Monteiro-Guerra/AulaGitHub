@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tascom</title>
+    <style>
+        body{
+            background-color: aqua;
+            color:black;
+            font: normal 30pt garamond;
+        }
+        h1{
+            color: blue;
+        }
+        p{
+            color: green;
+    
+        }
+        div{
+            color: blueviolet;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Aqui é o Título</h1>
+    <p>Aqui é o parágrafo 1</p>
+    <p>A Resolução 277 do Contran determina que as crianças menores de dez anos devem ser sempre transportadas nos bancos traseiros dos veículos usando individualmente cinto de segurança.<br> Até os sete anos e meio, elas devem utilizar o equipamento de retenção adequado (bebê conforto, cadeirinha ou assento de elevação).</p>
+    <div>Aqui é uma <strong>DIV</strong></div>
+
+    <script>
+    window.document.write('Adiciona componentes de forma simples')
+
+    var p1 = window.document.getElementsByTagName('p')[1]
+    window.document.write('vai repetir o que vem no p1 ou p2: ' + p1.innerText)
+
+    </script>
+</body>
+</html>

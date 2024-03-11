@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tascom</title>
+    <style>
+body{
+    background-color: bisque;
+    color: blue;
+    font: normal 30pt arial;
+}
+
+h1{
+    color: rgb(217, 6, 6);
+    
+}
+p{
+    color: black;
+}
+div{
+    color: green;
+}
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudo do DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p> Aprendendo a usar o <strong>DOM</strong> em JavaScript. </p>
+    <div>Clique em mim....</div>
+    
+    <script>
+    //window.alert('Clique em ok para continuar')
+    //window.confirm('confirme que você entrou no novo mundo !')
+    //window.prompt('insira seu nome e entre na sua construção')
+    //window.document.write('Olá Mundo!') // add componentes de forma simples. Não é a melhor forma.
+    //window.document.write(window.document.charset)// buscam configurações e mostram na página.
+    //window.document.write(window.navigator.appName)// buscam configurações e mostram na página.
+    //window.document.write(window.document.URL)// buscam configurações e mostram na página.
+    
+    var corpo = window.document.body
+    
+    var p1 = window.document.getElementsByTagName('p')[1]
+    window.document.write(p1.innerHTML)//(p1.innerText) vem sem o negrito do "DOM"
+    p1.style.color = 'orange'
+    
+    corpo.style.background = 'yellow'
+
+    //window.alert(p1.innerText) //na caixa de alerta vem sem negrito do DOM
+    //window.alert(p1.innerHTML) //na caixa de alerta vem <strong>DOM</strong>
+    
+    
+    </script>
+
+
+</body>
+</html>
