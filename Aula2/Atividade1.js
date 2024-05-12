@@ -1,4 +1,5 @@
-/*var idade = 69;
+/*
+var idade = 69;
 
 if (idade >= 59) {
     console.log('Você é Idoso');
@@ -7,12 +8,12 @@ if (idade >= 59) {
 }
 console.log('________________');
 
-console.log();
+console.log();*/
 
 //---------------------------------------------------------------------------------
 
 
-var idade = 15;
+var idade = 20;
 
 if(idade >= 60){
     console.log('Você é Idoso')
@@ -26,6 +27,8 @@ if(idade >= 60){
 }
 
 
-*/
+/*
 let idade = 69;
 console.log(idade >= 65 ? 'Idoso' : idade >= 18 ? ' Maior' : 'menor');
+
+*/

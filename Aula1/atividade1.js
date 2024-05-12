@@ -12,7 +12,7 @@ console.log("Preço Unitário: ", precounitario.toFixed(2));
 
 
 /*
-// Outra maneira de imprimir
+ Outra maneira de imprimir
 
 ExibirTabela = `Produto: ${produto}
 Quantidade: ${quantidade}
